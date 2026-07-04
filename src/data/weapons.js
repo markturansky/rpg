@@ -1,0 +1,15 @@
+export const WEAPONS = {
+  dagger:           { name: 'Dagger',           damageSM: { count: 1, die: 4 },   damageL: { count: 1, die: 3 },   weight: 1,  cost: 2,   type: 'melee',  thrown: true },
+  'short-sword':    { name: 'Short Sword',      damageSM: { count: 1, die: 6 },   damageL: { count: 1, die: 8 },   weight: 3,  cost: 8,   type: 'melee',  thrown: false },
+  longsword:        { name: 'Longsword',        damageSM: { count: 1, die: 8 },   damageL: { count: 1, die: 12 },  weight: 6,  cost: 15,  type: 'melee',  thrown: false },
+  'two-handed-sword': { name: 'Two-Handed Sword', damageSM: { count: 1, die: 10 }, damageL: { count: 3, die: 6 },  weight: 15, cost: 30,  type: 'melee',  thrown: false },
+  'battle-axe':     { name: 'Battle Axe',       damageSM: { count: 1, die: 8 },   damageL: { count: 1, die: 8 },   weight: 7,  cost: 5,   type: 'melee',  thrown: false },
+  mace:             { name: 'Mace',             damageSM: { count: 1, die: 6, bonus: 1 }, damageL: { count: 1, die: 6 }, weight: 5, cost: 8, type: 'melee', thrown: false },
+  'morning-star':   { name: 'Morning Star',     damageSM: { count: 2, die: 4 },   damageL: { count: 1, die: 6, bonus: 1 }, weight: 12, cost: 5, type: 'melee', thrown: false },
+  staff:            { name: 'Staff',            damageSM: { count: 1, die: 6 },   damageL: { count: 1, die: 6 },   weight: 4,  cost: 0,   type: 'melee',  thrown: false },
+  'short-bow':      { name: 'Short Bow',        damageSM: { count: 1, die: 6 },   damageL: { count: 1, die: 6 },   weight: 2,  cost: 15,  type: 'ranged', attacksPerRound: 2 },
+  longbow:          { name: 'Longbow',          damageSM: { count: 1, die: 6 },   damageL: { count: 1, die: 6 },   weight: 3,  cost: 60,  type: 'ranged', attacksPerRound: 2 },
+  'light-crossbow': { name: 'Light Crossbow',   damageSM: { count: 1, die: 4, bonus: 1 }, damageL: { count: 1, die: 4, bonus: 1 }, weight: 5, cost: 12, type: 'ranged', attacksPerRound: 1 },
+  'heavy-crossbow': { name: 'Heavy Crossbow',   damageSM: { count: 1, die: 6, bonus: 1 }, damageL: { count: 1, die: 6, bonus: 1 }, weight: 8, cost: 20, type: 'ranged', attacksPerRound: 0.5 },
+  sling:            { name: 'Sling',            damageSM: { count: 1, die: 4, bonus: 1 }, damageL: { count: 1, die: 6, bonus: 1 }, weight: 0.5, cost: 0.5, type: 'ranged', attacksPerRound: 1 },
+};
