@@ -1,5 +1,13 @@
 node_modules/
 dist/
+tmp/
 .DS_Store
 .idea/
 *.log
+*.db
+*.db-shm
+*.db-wal
+server/rpg-server
+client-godot/build/rpg-server
+client-godot/build/*.db*
+client-godot/.godot/
