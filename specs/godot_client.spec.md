@@ -2,9 +2,28 @@
 
 ## Overview
 
-The Godot 4.x client is the primary game interface. It connects to the Go
-WebSocket server for game state, renders the world as a zoomable hex map
-with server-rendered tile images, and handles all player interaction.
+The Godot 4.x client lives at `components/client/`. It is the primary game
+interface and will eventually connect to the Go server at `components/server/`
+for game state, render a zoomable world, and handle player interaction.
+
+### Bootstrap Milestone (M0)
+
+Before implementing world rendering, networking, tilemaps, combat, or UI, the
+client must provide one independently runnable scene with these requirements:
+
+- A `Node2D` main scene at `res://scenes/main.tscn`.
+- A grass background covering the complete viewport.
+- One visible, programmatically drawn character centered at
+  `get_viewport_rect().size / 2`.
+- Re-centering and redraw when the viewport changes size.
+- Escape uses Godot's built-in `ui_cancel` action and exits via
+  `get_tree().quit()`.
+- No dependency on third-party demo scenes, assets, combat, dialogue, server
+  processes, or generated sprite sheets.
+
+M0 is complete only when Godot can import the project and run the main scene
+without parser or runtime errors. It is intentionally a rendering and input
+baseline, not a vertical slice of the final RPG.
 
 This spec defines the scene architecture, data flow, and conventions that
 make the Godot client easy to build and maintain.
