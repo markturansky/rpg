@@ -1,0 +1,1963 @@
+{
+  "schema_version": "1.0.0",
+  "id": "tileset3",
+  "source": {
+    "path": "tileset3.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "sha256": "d0ae1d38fc3fbda9cb48748ea23094099f24549dfabf25de4cd5b486ab733a8e"
+  },
+  "coordinate_system": {
+    "origin": "top-left",
+    "units": "source-image pixels",
+    "rect": "{x, y, w, h}"
+  },
+  "atlas": {
+    "source_region": {
+      "x": 864,
+      "y": 0,
+      "w": 672,
+      "h": 1024
+    },
+    "description": "The right-side annotated atlas. The left 864x1024 portion is a world-map illustration and is intentionally excluded."
+  },
+  "runtime_readiness": {
+    "godot_direct_use": false,
+    "reason": "The source is opaque RGB artwork with black backing, headings, dividers, and non-uniform layout. It is a visual reference atlas, not a clean tile atlas.",
+    "required_next_step": "Extract each listed sprite or animation frame to individual RGBA PNG files, remove the black backing, then generate a Godot TileSet/SpriteFrames resource using the extracted image regions."
+  },
+  "sections": [
+    {
+      "id": "terrain_tiles",
+      "label": "Terrain Tiles (16x16)",
+      "category": "terrain",
+      "source_region": {
+        "x": 864,
+        "y": 0,
+        "w": 421,
+        "h": 316
+      },
+      "members": [
+        {
+          "id": "terrain_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_11",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_12",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_13",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_14",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_15",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_16",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_17",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_18",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_19",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_20",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_21",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_22",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_23",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_24",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_25",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_26",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_27",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_28",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_29",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_30",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_31",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_32",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_33",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_34",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "terrain_cell_35",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "mixed terrain surface cells; visual order only"
+    },
+    {
+      "id": "roads_paths",
+      "label": "Roads & Paths (16x16)",
+      "category": "terrain_overlay",
+      "source_region": {
+        "x": 1285,
+        "y": 0,
+        "w": 251,
+        "h": 316
+      },
+      "members": [
+        {
+          "id": "road_path_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_11",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_12",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_13",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_14",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_15",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_16",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_17",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_18",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_19",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_20",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_21",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_22",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "road_path_cell_23",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "road, path, junction, bridge-approach, and wall/fence components"
+    },
+    {
+      "id": "water_coasts",
+      "label": "Water & Coasts",
+      "category": "terrain",
+      "source_region": {
+        "x": 864,
+        "y": 316,
+        "w": 230,
+        "h": 193
+      },
+      "members": [
+        {
+          "id": "water_coast_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "water_coast_cell_11",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "water, coast, dock, and shoreline components"
+    },
+    {
+      "id": "rivers_bridges",
+      "label": "Rivers & Bridges",
+      "category": "terrain_overlay",
+      "source_region": {
+        "x": 1094,
+        "y": 316,
+        "w": 191,
+        "h": 193
+      },
+      "members": [
+        {
+          "id": "river_bridge_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_11",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_12",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_13",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_14",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "river_bridge_cell_15",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "river segments, falls, bridges, and stone crossings"
+    },
+    {
+      "id": "mountains_cliffs",
+      "label": "Mountains & Cliffs",
+      "category": "terrain_overlay",
+      "source_region": {
+        "x": 1285,
+        "y": 316,
+        "w": 251,
+        "h": 193
+      },
+      "members": [
+        {
+          "id": "mountain_cliff_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "mountain_cliff_cell_11",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "mountain, cliff, and arch formations"
+    },
+    {
+      "id": "trees_vegetation",
+      "label": "Trees & Vegetation",
+      "category": "prop",
+      "source_region": {
+        "x": 864,
+        "y": 316,
+        "w": 186,
+        "h": 193
+      },
+      "members": [
+        {
+          "id": "vegetation_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_11",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_12",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_13",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_14",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_15",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_16",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_17",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_18",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_19",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_20",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_21",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_22",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "vegetation_cell_23",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "trees, flowering plants, shrubbery, and dead trees"
+    },
+    {
+      "id": "rocks_natural_props",
+      "label": "Rocks & Natural Props",
+      "category": "prop",
+      "source_region": {
+        "x": 1050,
+        "y": 316,
+        "w": 155,
+        "h": 193
+      },
+      "members": [
+        {
+          "id": "natural_prop_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_11",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_12",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_13",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_14",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_15",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_16",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_17",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_18",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_19",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_20",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_21",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_22",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_23",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "natural_prop_cell_24",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "rocks, boulders, stumps, logs, mushrooms, crystals, and plants"
+    },
+    {
+      "id": "buildings_settlements",
+      "label": "Buildings & Settlements",
+      "category": "prop",
+      "source_region": {
+        "x": 1205,
+        "y": 316,
+        "w": 331,
+        "h": 193
+      },
+      "members": [
+        {
+          "id": "building_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_11",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_12",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_13",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_14",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_15",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_16",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_17",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_18",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_19",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_20",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_21",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_22",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_23",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_24",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_25",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "building_cell_26",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "houses, castles, towers, windmill, lighthouse, docks, and walls"
+    },
+    {
+      "id": "camps_misc_props",
+      "label": "Camps & Misc Props",
+      "category": "prop",
+      "source_region": {
+        "x": 864,
+        "y": 509,
+        "w": 294,
+        "h": 111
+      },
+      "members": [
+        {
+          "id": "camp_prop_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_11",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_12",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_13",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_14",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_15",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_16",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "camp_prop_cell_17",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "tents, campfire, wagons, furniture, wells, barrels, and crates"
+    },
+    {
+      "id": "dungeons_interiors",
+      "label": "Dungeons & Interiors",
+      "category": "interior",
+      "source_region": {
+        "x": 1158,
+        "y": 509,
+        "w": 378,
+        "h": 111
+      },
+      "members": [
+        {
+          "id": "dungeon_interior_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_11",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_12",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_13",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_14",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_15",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_16",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_17",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_18",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_19",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_20",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_21",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_22",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_23",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_24",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_25",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_26",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_27",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_28",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "dungeon_interior_cell_29",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "stone floors, walls, doors, furniture, banners, torches, and fixtures"
+    },
+    {
+      "id": "ships_boats",
+      "label": "Ships & Boats",
+      "category": "prop",
+      "source_region": {
+        "x": 864,
+        "y": 919,
+        "w": 180,
+        "h": 102
+      },
+      "members": [
+        {
+          "id": "ship_boat_cell_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ship_boat_cell_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ship_boat_cell_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ship_boat_cell_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ship_boat_cell_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ship_boat_cell_05",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "sailing ships and small boats"
+    },
+    {
+      "id": "world_map_icons",
+      "label": "World Map Icons",
+      "category": "ui",
+      "source_region": {
+        "x": 1044,
+        "y": 919,
+        "w": 247,
+        "h": 102
+      },
+      "members": [
+        {
+          "id": "world_map_icon_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_11",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_12",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_13",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_14",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "world_map_icon_15",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "settlement, landmark, travel, and map icons"
+    },
+    {
+      "id": "ui_icons",
+      "label": "UI Icons (optional)",
+      "category": "ui",
+      "source_region": {
+        "x": 1291,
+        "y": 919,
+        "w": 245,
+        "h": 102
+      },
+      "members": [
+        {
+          "id": "ui_icon_00",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_01",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_02",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_03",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_04",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_05",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_06",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_07",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_08",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_09",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_10",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_11",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_12",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_13",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_14",
+          "kind": "static",
+          "region": null
+        },
+        {
+          "id": "ui_icon_15",
+          "kind": "static",
+          "region": null
+        }
+      ],
+      "notes": "treasure, currency, tools, potions, heraldry, weapons, and armor icons"
+    },
+    {
+      "id": "characters",
+      "label": "Characters (4-frame animations)",
+      "category": "character",
+      "source_region": {
+        "x": 864,
+        "y": 620,
+        "w": 672,
+        "h": 93
+      },
+      "members": [
+        {
+          "id": "knight",
+          "kind": "animation",
+          "frames": [
+            "knight_frame_0",
+            "knight_frame_1",
+            "knight_frame_2",
+            "knight_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "mage",
+          "kind": "animation",
+          "frames": [
+            "mage_frame_0",
+            "mage_frame_1",
+            "mage_frame_2",
+            "mage_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "ranger",
+          "kind": "animation",
+          "frames": [
+            "ranger_frame_0",
+            "ranger_frame_1",
+            "ranger_frame_2",
+            "ranger_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "rogue",
+          "kind": "animation",
+          "frames": [
+            "rogue_frame_0",
+            "rogue_frame_1",
+            "rogue_frame_2",
+            "rogue_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "priest",
+          "kind": "animation",
+          "frames": [
+            "priest_frame_0",
+            "priest_frame_1",
+            "priest_frame_2",
+            "priest_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "merchant",
+          "kind": "animation",
+          "frames": [
+            "merchant_frame_0",
+            "merchant_frame_1",
+            "merchant_frame_2",
+            "merchant_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "guard",
+          "kind": "animation",
+          "frames": [
+            "guard_frame_0",
+            "guard_frame_1",
+            "guard_frame_2",
+            "guard_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "peasant",
+          "kind": "animation",
+          "frames": [
+            "peasant_frame_0",
+            "peasant_frame_1",
+            "peasant_frame_2",
+            "peasant_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        }
+      ],
+      "notes": "Named 4-frame character animations; frame rectangles require extraction into a clean RGBA atlas before runtime use."
+    },
+    {
+      "id": "creatures",
+      "label": "Creatures (4-frame animations)",
+      "category": "creature",
+      "source_region": {
+        "x": 864,
+        "y": 713,
+        "w": 672,
+        "h": 98
+      },
+      "members": [
+        {
+          "id": "wolf",
+          "kind": "animation",
+          "frames": [
+            "wolf_frame_0",
+            "wolf_frame_1",
+            "wolf_frame_2",
+            "wolf_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "bear",
+          "kind": "animation",
+          "frames": [
+            "bear_frame_0",
+            "bear_frame_1",
+            "bear_frame_2",
+            "bear_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "deer",
+          "kind": "animation",
+          "frames": [
+            "deer_frame_0",
+            "deer_frame_1",
+            "deer_frame_2",
+            "deer_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "boar",
+          "kind": "animation",
+          "frames": [
+            "boar_frame_0",
+            "boar_frame_1",
+            "boar_frame_2",
+            "boar_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "goblin",
+          "kind": "animation",
+          "frames": [
+            "goblin_frame_0",
+            "goblin_frame_1",
+            "goblin_frame_2",
+            "goblin_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "orc",
+          "kind": "animation",
+          "frames": [
+            "orc_frame_0",
+            "orc_frame_1",
+            "orc_frame_2",
+            "orc_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "skeleton",
+          "kind": "animation",
+          "frames": [
+            "skeleton_frame_0",
+            "skeleton_frame_1",
+            "skeleton_frame_2",
+            "skeleton_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "zombie",
+          "kind": "animation",
+          "frames": [
+            "zombie_frame_0",
+            "zombie_frame_1",
+            "zombie_frame_2",
+            "zombie_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "slime",
+          "kind": "animation",
+          "frames": [
+            "slime_frame_0",
+            "slime_frame_1",
+            "slime_frame_2",
+            "slime_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "spider",
+          "kind": "animation",
+          "frames": [
+            "spider_frame_0",
+            "spider_frame_1",
+            "spider_frame_2",
+            "spider_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        }
+      ],
+      "notes": "Named 4-frame creature animations; frame rectangles require extraction into a clean RGBA atlas before runtime use."
+    },
+    {
+      "id": "large_creatures",
+      "label": "Dragons, Elementals, Golems, and large creatures",
+      "category": "creature",
+      "source_region": {
+        "x": 864,
+        "y": 811,
+        "w": 672,
+        "h": 108
+      },
+      "members": [
+        {
+          "id": "dragon_red",
+          "kind": "animation",
+          "frames": [
+            "dragon_red_frame_0",
+            "dragon_red_frame_1",
+            "dragon_red_frame_2",
+            "dragon_red_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "dragon_blue",
+          "kind": "animation",
+          "frames": [
+            "dragon_blue_frame_0",
+            "dragon_blue_frame_1",
+            "dragon_blue_frame_2",
+            "dragon_blue_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "dragon_black",
+          "kind": "animation",
+          "frames": [
+            "dragon_black_frame_0",
+            "dragon_black_frame_1",
+            "dragon_black_frame_2",
+            "dragon_black_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "elemental_fire",
+          "kind": "animation",
+          "frames": [
+            "elemental_fire_frame_0",
+            "elemental_fire_frame_1",
+            "elemental_fire_frame_2",
+            "elemental_fire_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "elemental_water",
+          "kind": "animation",
+          "frames": [
+            "elemental_water_frame_0",
+            "elemental_water_frame_1",
+            "elemental_water_frame_2",
+            "elemental_water_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "golem_stone",
+          "kind": "animation",
+          "frames": [
+            "golem_stone_frame_0",
+            "golem_stone_frame_1",
+            "golem_stone_frame_2",
+            "golem_stone_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "golem_iron",
+          "kind": "animation",
+          "frames": [
+            "golem_iron_frame_0",
+            "golem_iron_frame_1",
+            "golem_iron_frame_2",
+            "golem_iron_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "troll",
+          "kind": "animation",
+          "frames": [
+            "troll_frame_0",
+            "troll_frame_1",
+            "troll_frame_2",
+            "troll_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "harpy",
+          "kind": "animation",
+          "frames": [
+            "harpy_frame_0",
+            "harpy_frame_1",
+            "harpy_frame_2",
+            "harpy_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "serpent",
+          "kind": "animation",
+          "frames": [
+            "serpent_frame_0",
+            "serpent_frame_1",
+            "serpent_frame_2",
+            "serpent_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "treant",
+          "kind": "animation",
+          "frames": [
+            "treant_frame_0",
+            "treant_frame_1",
+            "treant_frame_2",
+            "treant_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        },
+        {
+          "id": "sea_creature",
+          "kind": "animation",
+          "frames": [
+            "sea_creature_frame_0",
+            "sea_creature_frame_1",
+            "sea_creature_frame_2",
+            "sea_creature_frame_3"
+          ],
+          "fps": 8,
+          "loop": true,
+          "region": null
+        }
+      ],
+      "notes": "Frames are visibly grouped but not on a reliable rectangular grid; extract before runtime use."
+    }
+  ],
+  "validation": {
+    "source_dimensions_verified": true,
+    "atlas_within_source": true,
+    "all_section_regions_within_source": true,
+    "semantic_names_from_visible_labels_only": true,
+    "unlabeled_cells_use_stable_numeric_ids": true
+  }
+}
